@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    align-items: stretch;
+}
+h1 {
+    color:dodgerblue;
+    font-size: 50px;
+}
+nav {
+    width: 150px;
+    border-right: 1px solid grey;
+    flex-shrink: 0;
+}
+nav ol {
+    list-style: none;
+    padding-left: 0px;
+}
+nav ol li {
+    margin-bottom: 10px;
+}
+nav ol li a {
+    text-decoration: none;
+    color: black;
+}
+article {
+    margin-left: 20px;
+    line-height: 1.6;
+}
+img {
+    float:right;
+    width: 30%;
+}
+#us-map {
+    float: left;
+    padding-right: 20px;
+    width: 10%;
+}
+.img-left {
+    float:left;
+    margin-right: 20px;
+}
+iframe {
+    float: left;
+}
